@@ -11,13 +11,19 @@ A simple multicall implementation in javascript.
 
 Have your `ALCHEMY_MAINNET_RPC_URL` environment variables set. Otherwise, add it to a file named `.env` that looks similar to `.env.example`
 
-1. Download dependencies
+1. Clone the repo
+```
+git clone https://github.com/PatrickAlphaC/multicall-js
+cd multicall-js
+```
+
+2. Download dependencies
 
 ```
 yarn
 ```
 
-2. Run the script
+3. Run the script
 
 ```
 node mulicall.js
